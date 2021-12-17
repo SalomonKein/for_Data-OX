@@ -1,0 +1,24 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:  lightgray;
+    border: solid darkgray 1px;
+    padding: 10px;
+
+    .item-btn-back{
+        background: lightblue;
+        align-self: end;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+.item-title{}
+.item-content{}
+.item-author{}
+.tem-comments{}
+.item-create-comment{}
+
+}
