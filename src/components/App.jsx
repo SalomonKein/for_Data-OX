@@ -7,16 +7,16 @@ import './app.scss'
 import PostItem from "./postItem/PostItem";
 import NotFound from "./notFound/NotFound";
 
-const App = () => {      
+const App = () => {
 
     return (
         <BrowserRouter>
             <div className="container">
-            <Routes>                    
-                <Route path="/" element={<Main/>}/>
-                <Route path="/post/:id" element={<PostItem/>}/>
-                <Route path="*" element={<NotFound />}/>                
-            </Routes>
+                <Routes>
+                    <Route path="/" element={<Main />} />
+                    <Route path="/post/:id" element={<PostItem />} />
+                    <Route path="*" element={<NotFound />} />
+                </Routes>
             </div>
         </BrowserRouter>
     )

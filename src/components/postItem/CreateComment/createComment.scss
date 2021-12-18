@@ -1,0 +1,25 @@
+.create {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+
+  .create-name {
+    margin: 10px;
+  }
+  .create-comment {
+    width: 100%;
+    margin: 10px;
+  }
+  button {
+    align-self: center;
+    background: lightskyblue;
+    border: solid lightslategray 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+}

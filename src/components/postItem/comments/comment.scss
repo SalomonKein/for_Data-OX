@@ -1,0 +1,40 @@
+.comment {
+  background: #fff;
+  border: solid lightgray 1px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 15px;
+  .comment-author {
+    background: lightskyblue;
+    padding: 5px;
+    span {
+      margin-left: 10px;
+    }
+  }
+  .comment-body {
+    border: solid lightslategray 1px;
+    padding: 15px;
+  }
+  .comment-like-wrapper {
+    display: flex;
+    padding: 5px 15px;
+    justify-content: end;
+    .comment-dislike,
+    .comment-like {
+      margin-left: 20px;
+      border: solid lightslategray 1px;
+      padding: 0 5px;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+    }
+  }
+}

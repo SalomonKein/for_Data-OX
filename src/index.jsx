@@ -5,10 +5,10 @@ import App from './components/App'
 import { Provider } from 'react-redux'
 import { store } from './reducers'
 
-render (
+render(
     <Provider store={store}>
-    <App/>
+        <App />
     </Provider>,
     document.getElementById('root')
-    
+
 )
