@@ -62,7 +62,7 @@ function postReducer(state = defaultState, action) {
     case SET_NEW_COMMENT:
       return {
         ...state,
-        ...state.comments.push(action.payload),
+        comments: [...state.comments, action.payload],
       };
     default:
       return state;
